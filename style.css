@@ -46,8 +46,8 @@ a {
   display: inline-block;
 }
 
-/* utlitis section */
 
+/* utlitis section */
 .flex {
   display: flex;
   align-items: center;
@@ -101,8 +101,8 @@ a {
   color: var(--accent-color) !important;
 }
 
-/* top banner */
 
+/* top banner */
 .top-banner {
   background-image: url(images/top-banner.png);
   background-size: 300px;
@@ -119,8 +119,8 @@ ul {
   list-style: none;
 }
 
-/* nav bar */
 
+/* nav bar */
 .main-nav {
   margin-top: 15px;
   justify-content: space-between;
@@ -140,8 +140,8 @@ ul {
   gap: 40px;
 }
 
-/* her0-section */
 
+/* her0-section */
 header {
   padding: 50px 20px 0px;
 }
@@ -179,8 +179,8 @@ header {
   padding: 10px 0px;
 }
 
-/* company-section */
 
+/* company-section */
 .companies-header {
   text-align: center;
   margin: 50px 0px 0px;
@@ -198,8 +198,8 @@ header {
   margin: 30px 0px;
 }
 
-/* features section */
 
+/* features section */
 .features-section {
   padding: 80px 20px 0px;
   background-image: url("images/background.svg");
@@ -231,8 +231,8 @@ header {
   text-align: center;
 }
 
-/* big features section */
 
+/* big features section */
 .big-feature-section {
   padding: 5px;
 }
@@ -256,8 +256,8 @@ header {
   margin-top: 30px;
 }
 
-/* Example section */
 
+/* Example section */
 .examples-area {
   justify-content: space-between;
   margin: 30px 0px 30px;
@@ -308,8 +308,8 @@ header {
   color: white;
 }
 
-/* cta section  */
 
+/* cta section  */
 .cta-section-container{
   flex-direction: column;
   gap: 30px;
@@ -325,8 +325,8 @@ header {
   color: white;
 }
 
-/* footer section */
 
+/* footer section */
 .link-column{
   flex-direction: column;
   align-items: flex-start;
@@ -343,6 +343,7 @@ footer{
   padding: 80px 0px;
   background-color: #ebf2fa;
 }
+
 
 /* sub footer section */
 .subfooter{
