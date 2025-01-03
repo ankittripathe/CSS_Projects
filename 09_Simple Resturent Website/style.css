@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+}
+
+.navContainer {
+    width: 100vw;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ce5ff;
+    background-image: linear-gradient(225deg, #3ce5ff 0%, #554ba0 50%, #340ed8 100%);
+}
+
+nav {
+    width: 100%;
+}
+
+#navList {
+    list-style-type: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+
+#navlogo {
+    font-size: 2.5rem;
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    margin-right: 20px;
+
+}
+
+a:hover {
+    color: black;
+    /* background-color: black; */
+}
+
+#navlogo:hover {
+    color: black;
+}
+
+#navItems {
+    display: flex;
+}
+
+.footerBox {
+    height: 50px;
+    background-color: #3ce5ff;
+    background-image: linear-gradient(225deg, #3ce5ff 0%, #554ba0 50%, #340ed8 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.contentBox {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px;
+    box-shadow: 0px 0px 30px black;
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leftbox h2 {
+    font-size: 2rem;
+}
+
+.inBox {
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: maroon;
+}
+
+
+.rightbox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.4s linear 0s;
+}
+
+.rightbox:hover {
+    transform: scale(1.1);
+}
+
+button {
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #00ff00;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: all 0.7s linear 0s;
+}
+
+
+main {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.hot::after {
+    content: "new.";
+    font-family: cursive;
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    border-radius: 30px;
+}
+
+.recipeBox {
+    font-family: cursive;
+    font-size: 1.1rem;
+}

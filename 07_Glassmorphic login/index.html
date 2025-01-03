@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lilita+One&family=Noto+Serif+Khojki:wght@700&family=Noto+Serif+Vithkuqi&family=Ubuntu:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .outer-Box {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+
+        .inner-Box {
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+            top: 40%;
+            transform: translateY(-50%);
+            padding: 20px 40px;
+            background-color: white;
+            border-radius: 10px;
+    
+
+        }
+
+        .signup-header h1 {
+            font-size: 2.5rem;
+            color: #212121;
+        }
+
+        .signup-header p{
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        .signup-Body{
+            margin: 15px 0px;
+        }
+        .signup-Body p{
+            margin: 10px 0px;
+        }
+
+        .signup-Body p label{
+            display: block;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="outer-Box">
+        <div class="inner-Box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+                <p>It just takes 30 seconds</p>
+            </header>
+
+            <main class="signup-Body">
+                <form>
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Ankit Tripathi" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Your Email</label>
+                        <input type="text" id="fullname" placeholder="ankittripathi@gamil.com" required>
+                    </p>
+
+                    <p>
+                        <label for="password">Your New Password</label>
+                        <input type="password" id="password" placeholder="at least 8 characters" required>
+                    </p>
+
+                    <p>
+
+                        <input type="submit" id="submit" value="Create Account">
+                    </p>
+                </form>
+            </main>
+            <footer class="signupFooter">
+                <p>Already have an Account? <a href="#">Login</a> </p>
+
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

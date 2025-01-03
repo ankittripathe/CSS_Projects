@@ -1,0 +1,58 @@
+:root {
+    --my-bg-color: #171737;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto,Arial,sans-serif,';
+
+}
+
+footer {
+    height: 8vh;
+    background-color: var(--my-bg-color);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 16px;
+}
+
+header {
+    /* height: 90px; */
+    background-color: var(--my-bg-color);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 27px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav div img {
+    height: 30px;
+}
+

@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Martel+Sans:wght@400;600&family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #d8d3d7;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* navBar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 2.5vw 6vw;
+}
+
+nav h2 {
+  font-family: cursive;
+  font-size: 5vw;
+}
+
+nav .list {
+  list-style-type: none;
+  display: flex;
+  gap: 2vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav .items {
+  transition: 0.35s ease-in;
+  padding: 8px 15px;
+}
+
+nav .items:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  transform: translateY(-10px);
+}
+
+nav i {
+  display: none;
+}
+
+.content {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+}
+
+.content .leftSide {
+  height: 100%;
+  width: 53%;
+  padding-inline: 6vw;
+  padding-block: 11vw;
+}
+
+.leftSide h1 {
+  font-size: 3vw;
+  width: 90%;
+}
+
+.leftSide h2 {
+  font-size: 2.2vw;
+  margin-top: 0.3vw;
+}
+
+.leftSide p {
+  font-size: 1.3vw;
+  width: 67%;
+  margin-top: 0.7vw;
+}
+
+.leftSide span {
+  color: orangered;
+  font-family: cursive;
+}
+
+.content button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vw 2.6vw;
+  margin-top: 1vw;
+  font-weight: 600;
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+
+.content .rightSide {
+  height: 100%;
+  width: 47%;
+}
+
+.rightSide img {
+  height: 100%;
+  width: auto;
+}
+
+
+
+
+/* media Quaries */
+@media (max-width: 600px) {
+  nav {
+    height: 60px;
+    margin-top: 3vw;
+  }
+
+  nav h2 {
+    font-size: 10vw;
+  }
+
+  nav .items {
+    display: none;
+  }
+
+  nav i {
+    display: block;
+    font-size: 10vw;
+  }
+
+  .content {
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content .leftSide {
+    height: 38%;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .leftSide h1 {
+    font-size: 8vw;
+  }
+
+  .leftSide h2 {
+    font-size: 5.3vw;
+    margin-top: 1vw;
+  }
+
+  .leftSide p {
+    font-size: 4vw;
+    width: 78%;
+    margin-top: 1vw;
+  }
+
+  .content button {
+    border-radius: 1vw;
+    padding: 2vw 4.5vw;
+    margin-top: 2vw;
+    font-weight: 600;
+    font-size: 3.8vw;
+  }
+
+  .content .rightSide {
+    height: 65%;
+    width: 100%;
+  }
+
+  .rightSide img {
+    height: 100vw;
+    width: 85vw;
+    margin-left: 8vw;
+  }
+}
